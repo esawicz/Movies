@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'mini-http', '-g' ]
+2 info using npm@2.15.11
+3 info using node@v4.6.2
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'mini-http', null ]
+7 verbose cache add spec mini-http
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'mini-http',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mini-http',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed mini-http@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for mini-http
+11 info addNameTag [ 'mini-http', 'latest' ]
+12 silly mapToRegistry name mini-http
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'mini-http',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'mini-http',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/mini-http
+17 verbose addNameTag registry:https://registry.npmjs.org/mini-http not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/mini-http
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 9:15:38 PM
+21 verbose request id 1518fa254f1c9a4c
+22 http request GET https://registry.npmjs.org/mini-http
+23 http 200 https://registry.npmjs.org/mini-http
+24 verbose headers { server: 'nginx/1.10.1',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'last-modified': 'Wed, 31 Aug 2016 05:07:15 GMT',
+24 verbose headers   etag: 'W/"57c66603-7fd7"',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '4158',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Fri, 10 Feb 2017 03:15:39 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sjc3626-SJC',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1486696539.233481,VS0,VE130',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'nginx/1.10.1',
+25 silly get     'content-type': 'application/json',
+25 silly get     'last-modified': 'Wed, 31 Aug 2016 05:07:15 GMT',
+25 silly get     etag: 'W/"57c66603-7fd7"',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '4158',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Fri, 10 Feb 2017 03:15:39 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sjc3626-SJC',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1486696539.233481,VS0,VE130',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving mini-http to /home/katie/.npm/registry.npmjs.org/mini-http/.cache.json
+27 verbose correctMkdir /home/katie/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for mini-http with tag latest
+29 silly addNamed mini-http@0.1.16
+30 verbose addNamed "0.1.16" is a plain semver version for mini-http
+31 silly mapToRegistry name mini-http
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'mini-http',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'mini-http',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/mini-http
+36 verbose addRemoteTarball https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz',
+37 verbose addRemoteTarball   'a17e04229084db490b9bfe9ddf2e6adcf3deb328' ]
+38 info retry fetch attempt 1 at 9:15:39 PM
+39 info attempt registry request try #1 at 9:15:39 PM
+40 http fetch GET https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz
+41 http fetch 200 https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz
+42 silly fetchAndShaCheck shasum a17e04229084db490b9bfe9ddf2e6adcf3deb328
+43 verbose addTmpTarball /tmp/npm-17074-537d2e5e/registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for mini-http@0.1.16
+45 verbose correctMkdir /home/katie/.npm correctMkdir not in flight; initializing
+46 silly cache afterAdd mini-http@0.1.16
+47 verbose afterAdd /home/katie/.npm/mini-http/0.1.16/package/package.json not in flight; writing
+48 verbose correctMkdir /home/katie/.npm correctMkdir not in flight; initializing
+49 verbose afterAdd /home/katie/.npm/mini-http/0.1.16/package/package.json written
+50 silly install resolved [ { name: 'mini-http',
+50 silly install resolved     version: '0.1.16',
+50 silly install resolved     description: 'command-line http server built on node native modules to serve local files',
+50 silly install resolved     main: 'index.js',
+50 silly install resolved     bin:
+50 silly install resolved      { 'mini-http': './bin/mini-http',
+50 silly install resolved        minihttp: './bin/mini-http',
+50 silly install resolved        mhttp: './bin/mini-http',
+50 silly install resolved        mh: './bin/mini-http' },
+50 silly install resolved     scripts: { test: 'node example.js' },
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git+https://github.com/menemslama/mini-http.git' },
+50 silly install resolved     keywords:
+50 silly install resolved      [ 'mini-http',
+50 silly install resolved        'command',
+50 silly install resolved        'cli',
+50 silly install resolved        'httpserver',
+50 silly install resolved        'http-server',
+50 silly install resolved        'http',
+50 silly install resolved        'server',
+50 silly install resolved        'static',
+50 silly install resolved        'file',
+50 silly install resolved        'simple',
+50 silly install resolved        'mini',
+50 silly install resolved        'minihttp',
+50 silly install resolved        'serve',
+50 silly install resolved        'local',
+50 silly install resolved        'files',
+50 silly install resolved        'localhost' ],
+50 silly install resolved     author: { name: 'menem slama', email: 'menem.slama@gmail.com' },
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     bugs: { url: 'https://github.com/menemslama/mini-http/issues' },
+50 silly install resolved     homepage: 'https://github.com/menemslama/mini-http#readme',
+50 silly install resolved     gitHead: '74dc6318d30f8d8f2457e137cc49deee4422c97b',
+50 silly install resolved     _id: 'mini-http@0.1.16',
+50 silly install resolved     _shasum: 'a17e04229084db490b9bfe9ddf2e6adcf3deb328',
+50 silly install resolved     _from: 'mini-http@latest',
+50 silly install resolved     _npmVersion: '2.14.4',
+50 silly install resolved     _nodeVersion: '4.1.1',
+50 silly install resolved     _npmUser: { name: 'menem', email: 'menem.slama@gmail.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'a17e04229084db490b9bfe9ddf2e6adcf3deb328',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     _npmOperationalInternal:
+50 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+50 silly install resolved        tmp: 'tmp/mini-http-0.1.16.tgz_1472620033468_0.46714678988792' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/mini-http/-/mini-http-0.1.16.tgz' } ]
+51 info install mini-http@0.1.16 into /usr/lib
+52 info installOne mini-http@0.1.16
+53 verbose installOne of mini-http to /usr/lib not in flight; installing
+54 verbose correctMkdir /home/katie/.npm/_locks correctMkdir not in flight; initializing
+55 verbose lock using /home/katie/.npm/_locks/mini-http-7c55e47843f0707f.lock for /usr/lib/node_modules/mini-http
+56 silly install write writing mini-http 0.1.16 to /usr/lib/node_modules/mini-http
+57 verbose unbuild lib/node_modules/mini-http
+58 silly gentlyRm /usr/lib/node_modules/mini-http is being purged from base /usr
+59 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/mini-http
+60 verbose tar unpack /home/katie/.npm/mini-http/0.1.16/package.tgz
+61 verbose tar unpacking to /usr/lib/node_modules/mini-http
+62 silly gentlyRm /usr/lib/node_modules/mini-http is being purged
+63 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/mini-http
+64 silly gunzTarPerm modes [ '775', '664' ]
+65 error tar.unpack untar error /home/katie/.npm/mini-http/0.1.16/package.tgz
+66 verbose unlock done using /home/katie/.npm/_locks/mini-http-7c55e47843f0707f.lock for /usr/lib/node_modules/mini-http
+67 verbose fstream_path /usr/lib/node_modules/mini-http
+68 verbose fstream_type Directory
+69 verbose fstream_class DirWriter
+70 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/mini-http'
+70 verbose stack     at Error (native)
+71 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+71 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+71 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+72 verbose cwd /home/katie/dev/Movies/Movies
+73 error Linux 4.2.0-42-generic
+74 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "mini-http" "-g"
+75 error node v4.6.2
+76 error npm  v2.15.11
+77 error path /usr/lib/node_modules/mini-http
+78 error code EACCES
+79 error errno -13
+80 error syscall mkdir
+81 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/mini-http'
+81 error     at Error (native)
+81 error  { [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/mini-http']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   syscall: 'mkdir',
+81 error   path: '/usr/lib/node_modules/mini-http',
+81 error   fstream_type: 'Directory',
+81 error   fstream_path: '/usr/lib/node_modules/mini-http',
+81 error   fstream_class: 'DirWriter',
+81 error   fstream_stack:
+81 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+81 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+81 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/mini-http
+85 silly gentlyRm /usr/lib/node_modules/mini-http is being purged from base /usr
+86 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/mini-http
