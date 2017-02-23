@@ -9,16 +9,16 @@ var corsOptions = {
     origin: 'http://localhost:8008'
 };
 
-var secret = require('./config.js');
+// var secret = require('./config.js');
 
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors(corsOptions));
-app.use(session({
-	secret: secret.secret
-}));
+// app.use(session({
+// 	secret: secret.secret
+// }));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname ));
 
 // var massiveInstance = massive.connectSync({connectionString : connectionString});
 // app.set('db', massiveInstance);

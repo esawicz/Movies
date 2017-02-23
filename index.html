@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="movies" lang="en">
+
+<head>
+  <link rel='stylesheet' href='./css/style.css' type='text/css'>
+	<title>Movies</title>
+</head>
+
+<body>
+
+  <header></header>
+  <a ui-sref="home">home</a>
+  <a ui-sref="about">about</a>
+  <ui-view></ui-view>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="./node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="./public/app.js"></script>
+    <script src="./public/containers/home/home.component.js"></script>
+</script>
+</body>
+
+</html>

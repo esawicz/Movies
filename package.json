@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/katieolivia/Movies#readme",
   "dependencies": {
+    "angular-ui-router": "^0.4.2",
     "body-parser": "^1.16.1",
     "cors": "^2.8.1",
     "express": "^4.14.1",
