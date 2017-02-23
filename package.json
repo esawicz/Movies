@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/katieolivia/Movies/issues"
   },
-  "homepage": "https://github.com/katieolivia/Movies#readme"
+  "homepage": "https://github.com/katieolivia/Movies#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "massive": "^2.6.0"
+  }
 }
