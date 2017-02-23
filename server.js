@@ -20,12 +20,12 @@ app.use(session({
 
 app.use(express.static(__dirname + '/public'));
 
-var massiveInstance = massive.connectSync({connectionString : connectionString});
-app.set('db', massiveInstance);
-var db = app.get('db');
+// var massiveInstance = massive.connectSync({connectionString : connectionString});
+// app.set('db', massiveInstance);
+// var db = app.get('db');
 
 
-var controller = require('./controller');
+// var controller = require('./controller');
 
 
 app.listen(port, function(){
